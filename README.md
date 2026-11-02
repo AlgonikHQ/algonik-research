@@ -2,7 +2,7 @@
 
 Testing trading ideas properly — and publishing what fails, not just what works.
 
-**Status (1 Nov 2026):** demo only. No strategy tested so far has passed its own pass criteria after real costs.
+**Status (2 Nov 2026):** demo only. 65 pre-registered tries, none has passed its own pass criteria after real costs. Six run forward on paper with frozen rules. Latest log: [2 Nov 2026](logs/2026-11-02-rounds-3-4.md).
 Not financial advice.
 
 ---
@@ -24,7 +24,7 @@ honesty to say when one isn't there yet.
 
 ## Results so far
 
-About 55 variants and tens of thousands of simulated trades, across FX, stock indices, metals, energy,
+65 pre-registered tries and tens of thousands of simulated trades, across FX, stock indices, metals, energy,
 grains and bonds, from 15-minute to weekly charts, 2005–2026.
 
 | Idea family | Markets | Avg per trade after costs | Real direction edge? | Verdict |
@@ -37,7 +37,14 @@ grains and bonds, from 15-minute to weekly charts, 2005–2026.
 | Short-hold dip-buying | 24 markets | −0.03R to −0.06R | No | Ruled out |
 | Daily mean reversion (3 versions) | FX majors, 2005–2026 | −0.05R to −0.10R | No | Ruled out |
 | Turn-of-month | 11 stock indices | about −0.02R | Small, inconsistent | Financing eats it |
-| Momentum-leader breakouts, short holds | Low-cost indices & commodities | about +0.02R | **Yes** — survives flip and random tests on unseen data | Real but too small — tracked live |
+| Momentum-leader breakouts, short holds | Low-cost indices & commodities | about +0.02R | **Yes** — survives flip and random tests on unseen data | Retired — failed its locked 2005–14 holdout (−0.017R, 1,236 trades) |
+| FX carry, with and without a trend filter | 18 FX pairs, 2005–2026 | +1.02R and +0.21R in two periods, −0.15R and −0.41R in the sealed one | Regime-dependent | Ruled out |
+| Time-series trend following | 42 markets: FX, indices, commodities, bonds | −0.08R on CFDs; +0.14R with futures-like costs | **Yes** — beats 97% of random runs | Financing eats it on CFDs — tracked forward |
+| Intraday index momentum | 4 US indices, 5-minute data, 2015–2026 | −0.086R over 3,855 trades | No | Ruled out — spread |
+| Opening-range breakout | 6 stock indices, 2015–2026 | −0.070R over 6,736 trades | No | Ruled out — spread |
+| Pre-Fed-decision drift | S&P 500 and Nasdaq, 93 meetings | +0.067R | **Yes** — beats 96% of random windows | Real but too small — tracked forward |
+| Index and oil pairs reversion | 2 pairs, daily | −0.107R | No | Ruled out — gaps rarely closed |
+| Fading crowded futures positioning | 7 currencies, gold, oil | −0.004R, then +0.097R | Mixed | Failed its design period — tracked forward |
 
 ## What we learned
 
