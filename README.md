@@ -2,7 +2,7 @@
 
 Testing trading ideas properly — and publishing what fails, not just what works.
 
-**Status (2 Nov 2026):** demo only. 65 pre-registered tries, none has passed its own pass criteria after real costs. Six run forward on paper with frozen rules. Latest log: [2 Nov 2026](logs/2026-11-02-rounds-3-4.md).
+**Status (4 Nov 2026):** demo only. 69 pre-registered tries, none has passed its own pass criteria after real costs. Six run forward on paper with frozen rules. Latest log: [4 Nov 2026](logs/2026-11-04-round-5.md).
 Not financial advice.
 
 ---
@@ -24,7 +24,7 @@ honesty to say when one isn't there yet.
 
 ## Results so far
 
-65 pre-registered tries and tens of thousands of simulated trades, across FX, stock indices, metals, energy,
+69 pre-registered tries and tens of thousands of simulated trades, across FX, stock indices, metals, energy,
 grains and bonds, from 15-minute to weekly charts, 2005–2026.
 
 | Idea family | Markets | Avg per trade after costs | Real direction edge? | Verdict |
@@ -45,6 +45,10 @@ grains and bonds, from 15-minute to weekly charts, 2005–2026.
 | Pre-Fed-decision drift | S&P 500 and Nasdaq, 93 meetings | +0.067R | **Yes** — beats 96% of random windows | Real but too small — tracked forward |
 | Index and oil pairs reversion | 2 pairs, daily | −0.107R | No | Ruled out — gaps rarely closed |
 | Fading crowded futures positioning | 7 currencies, gold, oil | −0.004R, then +0.097R | Mixed | Failed its design period — tracked forward |
+| Sweep and reclaim (CRT / ICT AMD) | 6 stock indices, 5-minute data, 2015–2026 | −0.091R over 6,400+ trades | No — vanished on newer data | Ruled out |
+| Sweep and reclaim + SMT divergence | Same | −0.18R, then −0.12R | No | Ruled out |
+| Overnight index drift | 6 stock indices, 2015–2026 | −0.034R over 7,340 nights | Small — long beats short | Ruled out — costs exceed it |
+| Fading the broker's retail crowd | 3 FX majors and gold, 2021–2026 | −0.13R, then −0.09R | No | Ruled out |
 
 ## What we learned
 
