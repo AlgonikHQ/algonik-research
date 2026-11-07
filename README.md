@@ -2,7 +2,7 @@
 
 Testing trading ideas properly — and publishing what fails, not just what works.
 
-**Status (4 Nov 2026):** demo only. 69 pre-registered tries, none has passed its own pass criteria after real costs. Six run forward on paper with frozen rules. Latest log: [4 Nov 2026](logs/2026-11-04-round-5.md).
+**Status (7 Nov 2026):** demo only. 70 pre-registered tries, none has passed its own pass criteria after real costs. Six run forward on paper with frozen rules. Latest log: [7 Nov 2026](logs/2026-11-07-round-6.md).
 Not financial advice.
 
 ---
@@ -24,7 +24,7 @@ honesty to say when one isn't there yet.
 
 ## Results so far
 
-69 pre-registered tries and tens of thousands of simulated trades, across FX, stock indices, metals, energy,
+70 pre-registered tries and tens of thousands of simulated trades, across FX, stock indices, metals, energy,
 grains and bonds, from 15-minute to weekly charts, 2005–2026.
 
 | Idea family | Markets | Avg per trade after costs | Real direction edge? | Verdict |
