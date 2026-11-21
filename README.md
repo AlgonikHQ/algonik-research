@@ -2,7 +2,7 @@
 
 Testing trading ideas properly — and publishing what fails, not just what works.
 
-**Status (21 Nov 2026):** demo only. 75 pre-registered tries, none has passed its own pass criteria after real costs. Six run forward on paper with frozen rules; the two intraday ones also place demo orders. Latest log: [21 Nov 2026](logs/2026-11-21-forward-weeks-2-3.md).
+**Status (21 Nov 2026):** demo only. 76 pre-registered tries, none has passed its own pass criteria after real costs. Six run forward on paper with frozen rules; the two intraday ones also place demo orders. Latest log: [21 Nov 2026](logs/2026-11-21-forward-weeks-2-3.md).
 Not financial advice.
 
 ---
@@ -24,7 +24,7 @@ honesty to say when one isn't there yet.
 
 ## Results so far
 
-75 pre-registered tries and tens of thousands of simulated trades, across FX, stock indices, metals, energy,
+76 pre-registered tries and tens of thousands of simulated trades, across FX, stock indices, metals, energy,
 grains and bonds, from 15-minute to weekly charts, 2005–2026.
 
 | Idea family | Markets | Avg per trade after costs | Real direction edge? | Verdict |
@@ -52,6 +52,7 @@ grains and bonds, from 15-minute to weekly charts, 2005–2026.
 | Intraday turn-of-month | 6 stock indices, 5-minute data, 2015–2019 | −0.068R over 1,416 trades | No — worse than random ordinary days | Ruled out |
 | US open gap: fade it or follow it | 4 US indices, 5-minute data, 2015–2019 | Fade −0.090R (2,233), follow −0.011R (2,239) | No | Ruled out |
 | Buying after a big down day | 6 stock indices, 2015–2019 | −0.084R over 347 trades | No — worse than random days | Ruled out |
+| Trading US data-release days (jobs, CPI) | 4 US indices, 5-minute data, 2015–2019 | +0.128R over 79 trades (t 1.0) | No — beat only 62% of random directions | Ruled out — longs won because markets rose |
 
 ## What we learned
 
