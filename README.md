@@ -2,7 +2,7 @@
 
 Testing trading ideas properly — and publishing what fails, not just what works.
 
-**Status (7 Nov 2026):** demo only. 70 pre-registered tries, none has passed its own pass criteria after real costs. Six run forward on paper with frozen rules. Latest log: [7 Nov 2026](logs/2026-11-07-round-6.md).
+**Status (21 Nov 2026):** demo only. 73 pre-registered tries, none has passed its own pass criteria after real costs. Six run forward on paper with frozen rules; the two intraday ones also place demo orders. Latest log: [21 Nov 2026](logs/2026-11-21-forward-weeks-2-3.md).
 Not financial advice.
 
 ---
@@ -24,7 +24,7 @@ honesty to say when one isn't there yet.
 
 ## Results so far
 
-70 pre-registered tries and tens of thousands of simulated trades, across FX, stock indices, metals, energy,
+73 pre-registered tries and tens of thousands of simulated trades, across FX, stock indices, metals, energy,
 grains and bonds, from 15-minute to weekly charts, 2005–2026.
 
 | Idea family | Markets | Avg per trade after costs | Real direction edge? | Verdict |
@@ -49,6 +49,8 @@ grains and bonds, from 15-minute to weekly charts, 2005–2026.
 | Sweep and reclaim + SMT divergence | Same | −0.18R, then −0.12R | No | Ruled out |
 | Overnight index drift | 6 stock indices, 2015–2026 | −0.034R over 7,340 nights | Small — long beats short | Ruled out — costs exceed it |
 | Fading the broker's retail crowd | 3 FX majors and gold, 2021–2026 | −0.13R, then −0.09R | No | Ruled out |
+| Intraday turn-of-month | 6 stock indices, 5-minute data, 2015–2019 | −0.068R over 1,416 trades | No — worse than random ordinary days | Ruled out |
+| US open gap: fade it or follow it | 4 US indices, 5-minute data, 2015–2019 | Fade −0.090R (2,233), follow −0.011R (2,239) | No | Ruled out |
 
 ## What we learned
 
