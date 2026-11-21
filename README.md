@@ -65,6 +65,8 @@ grains and bonds, from 15-minute to weekly charts, 2005–2026.
    It is statistically real — but small, and costs take most of it.
 5. **Process beats patterns.** After dozens of variants, more tweaking mostly raises the chance of finding something
    that only looks good by luck. Knowing when to stop is part of the method.
+6. **The venue isn't the problem.** Re-pricing seven failed index ideas on micro futures instead of CFDs rescued none;
+   most did worse at tight intraday stops. They had little edge before costs, not just too much cost.
 
 ## Live now (demo account)
 
